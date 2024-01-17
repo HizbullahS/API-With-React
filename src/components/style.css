@@ -1,0 +1,59 @@
+/*///////////////////////////// Table CSS /////////////////////////////*/
+.table-container {
+  width: 90%;
+  height: 400px;
+  padding: 32px;
+  background-color: white;
+  margin-right: 40px;
+  margin-top: 10px;
+  border: 1px solid black;
+  border-radius: 4px;
+  display: block;
+  float: right;
+
+}
+
+.inner-table-container {
+  height: 354px;
+  overflow: scroll;
+}
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 50px !important;
+}
+
+.product-table th,
+.product-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: center;
+}
+
+.product-table th {
+  background-color: #f2f2f2;
+}
+
+.product-row:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+input {
+  background-color: #f2f2f2;
+  border: 1px solid #ddd;
+  padding: 8px;
+  width: 49%;
+  text-align: center;
+}
+
+body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+  font-size: 70px;
+  font-family: 'Times New Roman', Times, serif;
+  color:darkgreen;
+}
